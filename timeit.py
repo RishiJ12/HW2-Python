@@ -7,8 +7,3 @@ def calculate_time(func):
 
 
 
-def test():
-    print('')
-
-calculate_time(test)    
-
