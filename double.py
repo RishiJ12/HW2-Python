@@ -1,5 +1,6 @@
 def doubler(func):
-    func
-    func
+    func()
+    func()
+
 
 
