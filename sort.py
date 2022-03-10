@@ -15,10 +15,4 @@ def sort_list(myList):
 
 
 
-list = [1,3,6,3,8,2,5,0,]
-sort_list(list)
-for num in list:
-    print(num)
-
-
 
