@@ -2,8 +2,11 @@ import time
 
 def calculate_time(func):
     func()
-    x = time.time()
-    print('Total time ' + str(x))
+    print('Total time ' + str(time.time())
+
+
+
+
 
 
 
