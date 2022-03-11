@@ -7,8 +7,5 @@ def calculate_time(func):
 
 
 
-calculate_time(func)
-
-
 
 
