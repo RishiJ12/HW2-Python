@@ -4,3 +4,9 @@ def doubler(func):
 
 
 
+
+doubler(func)
+
+
+
+
