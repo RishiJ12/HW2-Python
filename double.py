@@ -1,11 +1,12 @@
 def doubler(func):
-    func()
-    func()
+    def wrapper_func():
+        func()
+        func()
+
+    return wrapper_func
 
 
 
-
-doubler(func)
 
 
 
