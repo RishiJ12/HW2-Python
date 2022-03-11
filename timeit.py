@@ -1,7 +1,6 @@
 import time
 
 def calculate_time(func):
-    @wraps(func)
     def timeit_wrapper(*args, **kwargs):
         result = func(*args, **kwargs)
         total_time = time.time()
