@@ -1,5 +1,5 @@
 def func_counter(func):
-    counter
+    counter = 0
     def wrapper_func(*args):
         func_counter.counter += 1
         return func(*args)
